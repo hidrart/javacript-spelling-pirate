@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Patua+One&display=swap');
+
+:root {
+    --pirate-black: #1b1b1b;
+    --pirate-grey: #808080;
+    --pirate-yellow: #c5a34c;
+    --pirate-red: #c1272d;
+    --pirate-white: #ffffff;
+}
+
+body {
+    padding-top: 1em;
+    padding-bottom: 0;
+    color: var(--pirate-black);
+    font-family: 'Open Sans', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    height: 2.2em;
+}
+
+.nav-link {
+    font-family: 'Patua One', cursive;
+    font-size: 1.1em;
+}
+
+.hero {
+    padding-top: 5em;
+}
+
+.hero-heading h4 {
+    font-family: 'Patua One', cursive;
+    color: var(--pirate-yellow);
+}
+
+.hero-heading h3 {
+    font-family: 'Patua One', cursive;
+    color: var(--pirate-black);
+}
+
+.hero-heading h1 {
+    font-family: 'Patua One', cursive;
+    font-size: 5em;
+}
+
+.hero-heading p {
+    color: var(--pirate-grey);
+    line-height: 2em;
+}
+
+.hero-heading .btn-primary {
+    font-family: 'Patua One', cursive;
+    background-color: var(--pirate-red);
+    color: var(--pirate-white);
+    border-radius: .5em;
+    padding: .5 1.5em;
+    box-shadow: none;
+    border-width: 0;
+}
+
+.icon {
+    height: 1.2em;
+    margin-right: .5em;
+}
+
+.hero-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-top: 3em;
+    background-position: center;
+}
+
+.card {
+    border-radius: 1em;
+}
+
+.card-img-top {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.card-title {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+}
+
+.footer-menu {
+    vertical-align: bottom;
+}
+
+.footer-menu li {
+    list-style: none;
+    text-align: right;
+}
+
+.footer-menu a {
+    color: #5f5f5f;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: var(--ancol-yellow);
+}
