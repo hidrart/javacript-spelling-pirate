@@ -56,7 +56,7 @@ body {
     background-color: var(--pirate-red);
     color: var(--pirate-white);
     border-radius: .5em;
-    padding: .5 1.5em;
+    padding: .5em 1.5em;
     box-shadow: none;
     border-width: 0;
 }
